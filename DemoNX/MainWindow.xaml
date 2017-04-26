@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DemoNX"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Конструктор винта ГОСТ 1477-64" Height="445.309" Width="525" ResizeMode="NoResize">
     <Grid>
-        
+        <Button Content="Создать" HorizontalAlignment="Left" Margin="432,384.349,0,0" VerticalAlignment="Top" Width="75"/>
+        <ComboBox HorizontalAlignment="Left" Margin="92.11,38.674,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+            <ComboBoxItem Content="3"/>
+            <ComboBoxItem Content="4"/>
+            <ComboBoxItem Content="5"/>
+        </ComboBox>
+        <ComboBox HorizontalAlignment="Left" Margin="92.11,117.554,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+            <ComboBoxItem Content="10"/>
+            <ComboBoxItem Content="15"/>
+            <ComboBoxItem Content="20"/>
+        </ComboBox>
+        <Label Content="Параметр 1" HorizontalAlignment="Left" Margin="10,64.634,0,0" VerticalAlignment="Top"/>
+        <Label Content="Параметр 2" HorizontalAlignment="Left" Margin="10,91.594,0,0" VerticalAlignment="Top"/>
+        <Label Content="0" HorizontalAlignment="Left" Margin="92.11,65.634,0,0" VerticalAlignment="Top"/>
+        <Label Content="0" HorizontalAlignment="Left" Margin="92.11,91.594,0,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="225.03" Margin="31.24,154.319,0,0" VerticalAlignment="Top" Width="425.973" Source="Снимок.PNG" Stretch="Fill"/>
+        <Label Content="Диаметр" HorizontalAlignment="Left" Margin="31.24,38.674,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.521,1.378"/>
+        <Label Content="Длина" HorizontalAlignment="Left" Margin="10,117.554,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
