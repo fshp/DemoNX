@@ -8,7 +8,7 @@
 	Width="640" Height="480">
 
 	<Grid x:Name="LayoutRoot" Background="White">
-		<Button Content="Button" HorizontalAlignment="Right" Margin="0,0,8,8" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Bottom" Width="75"/>
+		<Button Content="Создать" HorizontalAlignment="Right" Margin="0,0,8,8" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Bottom" Width="75"/>
 		<ComboBox HorizontalAlignment="Left" Margin="170,42.666,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="120" SelectedIndex="0">
 			<ComboBoxItem Content="5"/>
 			<ComboBoxItem Content="6"/>
