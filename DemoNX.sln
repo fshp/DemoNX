@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoNX", "DemoNX\DemoNX.csproj", "{c875c869-66ce-4aa8-bfab-483b9e8db213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoNXScreens", "DemoNX\DemoNXScreens\DemoNXScreens.csproj", "{c23e91e9-cef7-490d-a129-6b0d9472fe3e}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C875C869-66CE-4AA8-BFAB-483B9E8DB213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C875C869-66CE-4AA8-BFAB-483B9E8DB213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C875C869-66CE-4AA8-BFAB-483B9E8DB213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C875C869-66CE-4AA8-BFAB-483B9E8DB213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C23E91E9-CEF7-490D-A129-6B0D9472FE3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23E91E9-CEF7-490D-A129-6B0D9472FE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23E91E9-CEF7-490D-A129-6B0D9472FE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23E91E9-CEF7-490D-A129-6B0D9472FE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

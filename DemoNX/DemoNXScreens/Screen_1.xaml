@@ -1,0 +1,28 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Name="Screen_1_Name"
+	mc:Ignorable="d"
+	x:Class="DemoNXScreens.Screen_1"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<Button Content="Button" HorizontalAlignment="Right" Margin="0,0,8,8" Style="{DynamicResource Button-Sketch}" VerticalAlignment="Bottom" Width="75"/>
+		<ComboBox HorizontalAlignment="Left" Margin="170,42.666,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+			<ComboBoxItem Content="5"/>
+			<ComboBoxItem Content="6"/>
+			<ComboBoxItem Content="7"/>
+		</ComboBox>
+		<ComboBox Margin="170,182.666,0,0" Style="{DynamicResource ComboBox-Sketch}" VerticalAlignment="Top" HorizontalAlignment="Left" Width="120" SelectedIndex="0">
+			<ComboBoxItem Content="10"/>
+			<ComboBoxItem Content="15"/>
+			<ComboBoxItem Content="20"/>
+		</ComboBox>
+		<TextBlock HorizontalAlignment="Left" Margin="17.333,33.403,0,0" Style="{DynamicResource TitleLeft-Sketch}" Text="Диаметр" VerticalAlignment="Top"/>
+		<TextBlock HorizontalAlignment="Left" Margin="17.333,172,0,0" Style="{DynamicResource TitleLeft-Sketch}" Text="Длина" VerticalAlignment="Top"/>
+		<TextBlock HorizontalAlignment="Left" Margin="17.333,99.999,0,0" Style="{DynamicResource TitleLeft-Sketch}" Text="Параметр" VerticalAlignment="Top"/>
+		<TextBlock Margin="170,99.999,0,0" Style="{DynamicResource TitleLeft-Sketch}" Text="какой-нибудь" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+		<Image HorizontalAlignment="Left" Height="300" Margin="8,0,0,-2.666" VerticalAlignment="Bottom" Width="500" Source="example.png"/>
+	</Grid>
+</UserControl>
